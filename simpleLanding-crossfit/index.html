@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="header__logo"><img src="./images/logo.png" /></a>
+      <nav class="header__nav">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="" class="nav__link is-current">home</a>
+          </li>
+
+          <li class="nav__item"><a href="" class="nav__link">page</a></li>
+
+          <li class="nav__item"><a href="" class="nav__link">portfolio</a></li>
+          <li class="nav__item"><a href="" class="nav__link">blog</a></li>
+          <li class="nav__item"><a href="" class="nav__link">shop</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions_button">
+        <button class="button header__book__button">book now</button>
+        <button
+          class="header-burger-button button"
+          type="button"
+          title="Open menu"
+        >
+          <span class="visually-hidden">Open menu</span>
+          <span class="header-burger-button-line"></span>
+          <span class="header-burger-button-line"></span>
+          <span class="header-burger-button-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="content container">
+      <section class="event">
+        <div class="event_body">
+          <div class="event_info">
+            New event <br />coming up / <time datetime="06-07">june 7</time> -
+            <time datetime="13-07">13</time>
+          </div>
+          <h3 class="event_title">Crossfit</h3>
+        </div>
+        <div class="event_pagination">
+          <ul class="event_list">
+            <li class="event_link"><button class="event_button"></button></li>
+            <li class="event_link"><button class="event_button"></button></li>
+            <li class="event_link">
+              <button class="event_button is_active"></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="motivation">
+        <ul class="motivation__list">
+          <li class="motivation__item">
+            <div class="motivation__text">
+              <h3 class="motivation__title">
+                Be you, just stronger! Power is in you
+              </h3>
+              <p class="motivation__p">
+                Unum solum justo ex ius. Pro cu probo laboramus eius insolens
+                euripidis te eos, ut agam tota.
+              </p>
+              <button class="button">View more</button>
+            </div>
+
+            <img
+              class="motivation__img"
+              src="./images/motivation/2.jpg"
+              alt=""
+            />
+          </li>
+
+          <li class="motivation__item">
+            <img
+              class="motivation__img"
+              src="./images/motivation/1.jpg"
+              alt=""
+            />
+            <div class="motivation__text">
+              <h3 class="motivation__title">Today is the best day to start!</h3>
+              <p class="motivation__p">
+                Sed abhorreant constituam consectetuer eu. At mei clita
+                deserunt, his movet molestie nemore.
+              </p>
+              <button class="button">View more</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="training__types">
+        <div class="training__wrapper">
+          <div class="training__item">
+            <img src="./images/training-types/1.svg" alt="" />
+            <p>Maxpump</p>
+          </div>
+          <div class="training__item">
+            <img src="./images/training-types/2.svg" alt="" />
+            <p>Maxpump</p>
+          </div>
+          <div class="training__item">
+            <img src="./images/training-types/3.svg" alt="" />
+            <p>Maxpump</p>
+          </div>
+          <div class="training__item">
+            <img src="./images/training-types/4.svg" alt="" />
+            <p>Maxpump</p>
+          </div>
+          <div class="training__item">
+            <img src="./images/training-types/5.svg" alt="" />
+            <p>Maxpump</p>
+          </div>
+          <div class="training__item">
+            <img src="./images/training-types/6.svg" alt="" />
+            <p>Maxpump</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.header {
+  margin-top: 60px;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  &__menu {
+    margin-left: auto;
+
+    &-list {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      font-size: 20px;
+    }
+
+    &-link {
+      display: inline-flex;
+      align-items: center;
+      height: 50px;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        translate: -50%;
+        height: 2px;
+        width: 0;
+        background-color: currentColor;
+        transition-duration: inherit;
+      }
+
+      @include hover {
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.section {
+  margin-block: 50px;
+  border: var(--border);
+}
+
+.section {
+  &__head {
+    color: inherit;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__title {
+    font-size: 80px;
+    line-height: 1.1;
+  }
+  &__description {
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  &__buttons-wrapper {
+    margin-top: 40px;
+  }
+
+  &__button-orange {
+    background-color: var(--color-accent-orange);
+    margin-right: 20px;
+  }
+  &__button-green {
+    background-color: var(--color-accent-green);
+  }
+}

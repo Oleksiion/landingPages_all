@@ -1,0 +1,19 @@
+.button {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-radius: 14px;
+
+  // display: flex;
+  padding-inline: 35px;
+  height: 65px;
+
+  &:hover {
+    background-color: var(--color-accent);
+    color: var(--color-dark);
+  }
+
+  &--transparent {
+    color: var(--color-dark);
+    background-color: transparent;
+  }
+}

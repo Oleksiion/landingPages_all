@@ -1,0 +1,38 @@
+.hero {
+  &__partners {
+    margin-top: 70px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__partners-img {
+    width: 130px;
+    filter: grayscale(1);
+  }
+}
+.hero__main {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  //   align-items: start;
+}
+.hero__body {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 35px;
+}
+
+.hero__description {
+  font-size: 20px;
+  line-height: 1.4;
+  width: 498px;
+}
+
+.hero__img {
+  height: 515px;
+  width: 600px;
+}

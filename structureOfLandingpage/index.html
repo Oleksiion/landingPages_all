@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Structure</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__wrapper-all">
+        <div class="container nav__container">
+          <div class="nav__logo">
+            <a href="#header" class="nav__logo-img">LOGO</a>
+          </div>
+          <div class="nav__wrapper">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#about" class="nav__link">about</a>
+              </li>
+              <li class="nav__item">
+                <a href="#services" class="nav__link">services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#work" class="nav__link">my work</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">contact</a>
+              </li>
+            </ul>
+          </div>
+          <button class="nav__button button">
+            <a href="#contact">contact me</a>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <img
+            src="./assets/profile-img.png"
+            alt="logo"
+            width="300px"
+            height="300px"
+            class="header__img"
+          />
+          <h2 class="header__img-description">Hi! I'm Alex</h2>
+          <h1 class="header__title">
+            frontend web developer based in Ukraine.
+          </h1>
+          <p class="header__desription">
+            I am a frontend developer from Ukraine, with 10 years of experience
+            in multiple companies like Microsoft, Tesla and Apple.
+          </p>
+          <div class="header__button__wrapper">
+            <button class="header__button-contact button">
+              <a href="#contact_me">contact me</a>
+            </button>
+            <button class="header__button-second button">resume</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <!-- ABOUT -->
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="section__title">
+              <p class="section__title-desc">Introduction</p>
+              <h2 class="section__title-head">About me</h2>
+            </div>
+
+            <div class="about__block">
+              <img
+                class="about__block-left"
+                src="./assets/user-image.png"
+                alt="user"
+              />
+              <div class="about__block-right">
+                <p class="about__description">
+                  I am an experienced Frontend Developer with over a decade of
+                  professional expertise in the field. Throughout my career, I
+                  have had the privilege of collaborating with prestigious
+                  organizations, contributing to their success and growth.
+                </p>
+                <div class="about__boxs">
+                  <div class="about__box">1</div>
+                  <div class="about__box">2</div>
+                  <div class="about__box">3</div>
+                </div>
+                <h2 class="about__tools">Tools i use</h2>
+                <div class="about__tools-wrapper">
+                  <div class="about__tool">1</div>
+                  <div class="about__tool">2</div>
+                  <div class="about__tool">3</div>
+                  <div class="about__tool">4</div>
+                  <div class="about__tool">5</div>
+                  <div class="about__tool">6</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES  -->
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="services__wrapper">
+            <div class="section__title">
+              <p class="section__title-desc">What i offer</p>
+              <h2 class="section__title-head">My services</h2>
+              <p class="section__title-desc">
+                I am a frontend developer from Ukraine, with 10 years of
+                experience in multiple companies like Microsoft, Tesla and
+                Apple.
+              </p>
+            </div>
+
+            <div class="services__boxs">
+              <div class="services__box">1</div>
+              <div class="services__box">2</div>
+              <div class="services__box">3</div>
+              <div class="services__box">4</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section class="section work" id="work">
+        <div class="container">
+          <div class="work__wrapper">
+            <div class="section__title">
+              <p class="section__title-desc">My portfolio</p>
+              <h2 class="section__title-head">My latest work</h2>
+              <p class="section__title-desc">
+                Welcome to my web development portfolio! Explore a collection of
+                projects showcasing my expertise in front-end development.
+              </p>
+            </div>
+
+            <div class="work__boxs">
+              <div class="work__box">1</div>
+              <div class="work__box">2</div>
+              <div class="work__box">3</div>
+              <div class="work__box">4</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container">
+          <div class="contact__wrapper">
+            <div class="section__title">
+              <p class="section__title-desc">Connect with me</p>
+              <h2 class="section__title-head">Get in touch</h2>
+              <p class="section__title-desc">
+                I'd love to hear from you! If you have any questions, comments
+                or feedback, please use the form below.
+              </p>
+            </div>
+
+            <form action="">
+              <div class="contact__inputs-boxs">
+                <!-- <label for="name"></label> -->
+                <input
+                  class="contact__inputs-box"
+                  type="text"
+                  id="name"
+                  placeholder="enter your name"
+                />
+
+                <!-- <label for="email"></label> -->
+                <input
+                  class="contact__inputs-box"
+                  type="email"
+                  id="email"
+                  placeholder="enter your email"
+                />
+              </div>
+
+              <textarea name="area" id="area"> </textarea>
+
+              <!-- <input
+                type="submit"
+                value="SUBMIT"
+                class="button contact__button"
+              /> -->
+
+              <button class="button contact__button" type="submit">
+                SUBMIT
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <p class="footer__description">© 2024 All rights reserved.</p>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Inst</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Tg</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

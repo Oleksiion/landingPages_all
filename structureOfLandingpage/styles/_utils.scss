@@ -1,0 +1,14 @@
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  // border: 1px solid black;
+}
+
+* {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}

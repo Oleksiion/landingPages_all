@@ -1,0 +1,18 @@
+@import "./_reset", "./_fonts", "./_variables", "./_utils";
+
+@import "./blocks/_button";
+@import "./blocks/_input";
+@import "./blocks/_navigation";
+@import "./blocks/_header";
+@import "./blocks/_section";
+@import "./blocks/_main_wrapper";
+@import "./blocks/_about";
+@import "./blocks/_services";
+@import "./blocks/_work";
+@import "./blocks/_contact";
+@import "./blocks/_footer";
+
+a,
+a:visited {
+  color: black;
+}
